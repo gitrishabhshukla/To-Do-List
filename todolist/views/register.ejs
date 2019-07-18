@@ -1,0 +1,27 @@
+<%- include("header") %>
+
+<div class="box" id="heading" style="position:fixed;">
+  <h5>We remember,You finish it.</h5>
+</div>
+
+
+<div class="box" id="heading">
+  <h1> Manage Your Work </h1>
+</div>
+
+<div class="box">
+  <form action="/register" method="POST">
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" class="form-control" name="username">
+    </div>
+    <div class="form-group">
+      <label for="password">Password</label>
+      <input type="password" class="form-control" name="password">
+    </div>
+    <button type="submit" style="width:100%" class="btn btn-dark">Register</button>
+    <a href="/login"><button type="button" style="width:100%" class="btn btn-light" name="button">Login</button></a>
+  </form>
+
+</div>
+<%- include footer.ejs %>
