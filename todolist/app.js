@@ -26,7 +26,7 @@ app.use(passport.session());
 
 ///////////////////////////////////////////////////////////////
 
-mongoose.connect("mongodb+srv://admin-rishabhshukla:todolist-v2@cluster0-emm8w.mongodb.net/todolistnewDB" , {useNewUrlParser:true});
+mongoose.connect("mongodb+srv://admin-rishabhshukla:password@cluster0-emm8w.mongodb.net/DataBaseName" , {useNewUrlParser:true});
 mongoose.set('useCreateIndex', true);
 
 const userSchema = new mongoose.Schema ({
